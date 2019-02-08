@@ -8,7 +8,7 @@ const routes: Routes = [
     loadChildren: './pages/movies/movies.module#MoviesPageModule',
   },
   {
-    path: 'movie/:id',
+    path: 'movies/:id',
     loadChildren:
       './pages/movie-details/movie-details.module#MovieDetailsPageModule',
   },
